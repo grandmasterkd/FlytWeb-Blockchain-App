@@ -43,8 +43,8 @@ const Welcome = () => {
 
   return (
     <div className="flex flex-col md:flex-row w-full justify-between items-center">
-      <div className="flex flex-col items-start justify-between py-12 md:py-28 ">
-        <div className="flex flex-1 flex-col pl-4 md:pl-48 mb-10 md:mb-20 ">
+      <div className="flex flex-col items-start justify-between py-12 md:py-24 ">
+        <div className="flex flex-1 flex-col pl-4 md:pl-48  ">
           <h1 className="text-3xl md:text-6xl text-white text-gradient uppercase font-semibold py-1">
             Welcome to the <br></br>future of online <br></br> transactions
           </h1>
@@ -69,6 +69,81 @@ const Welcome = () => {
             )}
           </div>
         </div>
+
+        <a href="https://www.blockchain.com/explorer/prices/">
+          <div className="flex flex-col sm:flex-row gap-x-5 relative left-1/3 top-44 ">
+            <div className="bg-[#ffffff] w-60 h-36 p-5 rounded-md shadow-lg">
+              <div className="flex justify-between items-start">
+                <img className="w-10 mb-4" src="/images/bitcoinicon.png" />
+                <h4 className="bg-[#104260] text-[#48e7ff] font-semibold p-2 text-sm rounded-md inline-block">
+                  Trade
+                </h4>
+              </div>
+              <div className="flex gap-x-5  ">
+                <h4 className="font-semibold ">Bitcoin</h4>
+                <p className="text-[grey]">BTC</p>
+              </div>
+
+              <div className="flex gap-x-3 ">
+                <h4>$34,450.00</h4>
+                <h4 className="text-[green] font-semibold ">+3.38%</h4>
+              </div>
+            </div>
+
+            <div className="bg-[#ffffff] w-60 h-36 p-5 rounded-md shadow-lg">
+              <div className="flex justify-between items-start">
+                <img className="w-10 mb-4" src="/images/ethereumicon.png" />
+                <h4 className="bg-[#104260] text-[#48e7ff] font-semibold p-2 text-sm rounded-md inline-block">
+                  Trade
+                </h4>
+              </div>
+              <div className="flex gap-x-5  ">
+                <h4 className="font-semibold ">Ethereum</h4>
+                <p className="text-[grey]">ETH</p>
+              </div>
+
+              <div className="flex gap-x-3 ">
+                <h4>$1,791.15</h4>
+                <h4 className="text-[green] font-semibold ">+1.11%</h4>
+              </div>
+            </div>
+
+            <div className="bg-[#ffffff] w-60 h-36 p-5 rounded-md shadow-lg">
+              <div className="flex justify-between items-start">
+                <img className="w-10 mb-4" src="/images/stellaricon.png" />
+                <h4 className="bg-[#104260] text-[#48e7ff]  font-semibold p-2 text-sm rounded-md inline-block">
+                  Trade
+                </h4>
+              </div>
+              <div className="flex gap-x-5  ">
+                <h4 className="font-semibold ">Stellar</h4>
+                <p className="text-[grey]">XLM</p>
+              </div>
+
+              <div className="flex gap-x-3 ">
+                <h4>$0.11</h4>
+                <h4 className="text-[#f44848] font-semibold ">-0.52%</h4>
+              </div>
+            </div>
+            <div className="bg-[#ffffff] w-60 h-36 p-5 rounded-md shadow-lg">
+              <div className="flex justify-between items-start">
+                <img className="w-10 mb-4" src="/images/solanaicon.png" />
+                <h4 className="bg-[#104260] text-[#48e7ff] font-semibold p-2 text-sm rounded-md inline-block">
+                  Trade
+                </h4>
+              </div>
+              <div className="flex gap-x-5  ">
+                <h4 className="font-semibold ">Solana</h4>
+                <p className="text-[grey]">SOL</p>
+              </div>
+
+              <div className="flex gap-x-3 ">
+                <h4>$32.07</h4>
+                <h4 className="text-[#e95050] font-semibold ">-3.20%</h4>
+              </div>
+            </div>
+          </div>
+        </a>
 
         {/*
         <div className="flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-10">
